@@ -1,0 +1,222 @@
+/* Configurações Gerais - Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header - O Manto Grená */
+header {
+    background-color: #7b1113; /* Grená oficial do Jacupa */
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #d4af37; /* Detalhe em Dourado */
+    /* Garante que o escudo e o texto fiquem um embaixo do outro no centro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para a logo no Header */
+.logo-header {
+    width: 100px; /* Tamanho ajustado pro escudo não dominar a tela */
+    height: auto;
+    margin-bottom: 15px; /* Espaço entre o escudo e o título h1 */
+    filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.3)); /* Sombra pra dar profundidade */
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    color: #d4af37;
+}
+
+/* Menu de Navegação Superior */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d4af37;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #7b1113;
+    border-bottom: 2px solid #7b1113;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Formatação Especial */
+blockquote {
+    font-style: italic;
+    background: #fff5f5;
+    border-left: 8px solid #7b1113;
+    margin: 20px 0;
+    padding: 15px 25px;
+    color: #333;
+}
+
+strong {
+    color: #7b1113;
+}
+
+/* --- FOOTER ESTILO CLÁSSICO (CORES DO JACUPA) --- */
+
+footer {
+    background-color: #7b1113; /* Grená oficial */
+    color: #ffffff;
+    padding: 40px 20px;
+    border-top: 4px solid #d4af37; /* Linha dourada no topo */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.social-links h3 {
+    color: #d4af37;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    color: #d4af37; /* Letras brancas conforme o modelo nítido */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #d4af37;
+    text-decoration: underline;
+}
+
+/* Copyright alinhado à esquerda igual ao print */
+.copyright {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.lista-noticias {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.lista-noticias li {
+    margin-bottom: 12px;
+}
+
+.lista-noticias li a {
+    color: #7b1113; /* Grená */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lista-noticias li a:hover {
+    color: #d4af37; /* Dourado */
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Tira aquele espaço entre as bordas */
+    margin: 20px 0;
+}
+
+th {
+    background-color: #7b1113; /* Grená no cabeçalho */
+    color: white;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid #d4af37; /* Borda dourada nas células */
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    background: #fdfdfd;
+    padding: 20px;
+    border: 1px solid #7b1113;
+    border-radius: 5px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #7b1113;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #d4af37; /* Fica dourado no hover */
+    color: #000;
+}
