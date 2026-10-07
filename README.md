@@ -42,7 +42,9 @@ jacuipense-site/
 ├── about.html         # Institutional page
 ├── style.css          # Stylesheet
 └── ECJacuipense.png   # Club crest
-How to Run
+
+
+## How to Run
 There are no dependencies to install.
 
 Bash
