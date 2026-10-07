@@ -42,14 +42,12 @@ jacuipense-site/
 ├── about.html         # Institutional page
 ├── style.css          # Stylesheet
 └── ECJacuipense.png   # Club crest
-
-
-## How to Run
+How to Run
 There are no dependencies to install.
 
 Bash
 # Clone the repository
-git clone [https://github.com/TadeuHPSA/jacuipense-site.git](https://github.com/TadeuHPSA/jacuipense-site.git)
+git clone https://github.com/TadeuHPSA/jacuipense-site.git
 
 # Navigate to the directory
 cd jacuipense-site
@@ -84,3 +82,4 @@ Tadeu Henrique
 Riachão do Jacuípe, Bahia
 
 GitHub
+
