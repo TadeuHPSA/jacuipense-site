@@ -1,69 +1,84 @@
-Website informativo dedicado ao Esporte Clube Jacuipense, de Riachão do Jacuípe (BA). A página reúne a história do clube, notícias, agenda de jogos e canais oficiais, com estrutura semântica e navegação simples.
+An informational website dedicated to Esporte Clube Jacuipense from Riachão do Jacuípe, Bahia. The page features the club's history, news, match schedule, and official channels, built with a semantic structure and clean, simple navigation.
 
-Ver site online · Reportar problema
+[View Live Site] · [Report an Issue]
 
-Sumário
-Visão geral
-Funcionalidades
-Tecnologias
-Estrutura do projeto
-Como executar
-Deploy com GitHub Pages
-Roadmap
-Aviso legal
-Autor
-Visão geral
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Deployment with GitHub Pages](#deployment-with-github-pages)
+- [Roadmap](#roadmap)
+- [Disclaimer](#disclaimer)
+- [Author](#author)
 
-O projeto foi desenvolvido como exercício prático de HTML5 e CSS3, aplicando boas práticas de marcação semântica, organização de conteúdo, tabelas, formulários e links externos. O foco é apresentar de forma clara a trajetória do clube, desde a fundação em 1965 até a campanha histórica na Copa do Brasil de 2026.
+## Overview
 
-Funcionalidades
-Cabeçalho com escudo do clube e menu de navegação
-Linha do tempo histórica dividida em seções temáticas
-Seção de notícias com links para veículos de imprensa
-Agenda de jogos em formato de tabela
-Formulário de contato (nome, e-mail e assunto)
-Rodapé com links para redes sociais e loja oficial
-Página institucional adicional (sobre.html)
-Tecnologias
-Tecnologia	Uso
-HTML5	Estrutura e marcação semântica
-CSS3	Estilização e layout
-Estrutura do projeto
+This project was developed as a practical exercise in HTML5 and CSS3, applying best practices in semantic markup, content organization, tables, forms, and external links. The focus is to clearly present the club's journey, from its founding in 1965 to its historic campaign in the 2026 Copa do Brasil.
+
+## Features
+
+- Header featuring the club crest and navigation menu
+- Historic timeline divided into thematic sections
+- News section with links to press outlets
+- Match schedule in table format
+- Contact form (name, email, and subject)
+- Footer with social media links and official store
+- Additional institutional page (`about.html`)
+
+## Technologies
+
+| Technology | Usage |
+| :--- | :--- |
+| HTML5 | Structure and semantic markup |
+| CSS3 | Styling and layout |
+
+## Project Structure
+
+```text
 jacuipense-site/
-├── index.html         # Página inicial
-├── sobre.html         # Página institucional
-├── style.css          # Folha de estilos
-└── ECJacuipense.png   # Escudo do clube
-Como executar
+├── index.html         # Homepage
+├── about.html         # Institutional page
+├── style.css          # Stylesheet
+└── ECJacuipense.png   # Club crest
+How to Run
+There are no dependencies to install.
 
-Não há dependências a instalar.
+Bash
+# Clone the repository
+git clone [https://github.com/TadeuHPSA/jacuipense-site.git](https://github.com/TadeuHPSA/jacuipense-site.git)
 
-bash
-# Clonar o repositório
-git clone https://github.com/TadeuHPSA/jacuipense-site.git
-
-# Acessar o diretório
+# Navigate to the directory
 cd jacuipense-site
+Then, open the index.html file in any modern web browser.
 
-Em seguida, abra o arquivo index.html em qualquer navegador moderno.
+Deployment with GitHub Pages
+Go to Settings → Pages in your repository.
 
-Deploy com GitHub Pages
-Acesse Settings → Pages no repositório.
-Em Branch, selecione main e a pasta / (root).
-Salve e aguarde a publicação. O endereço será exibido na mesma tela.
+Under Branch, select main and the / (root) folder.
+
+Save and wait for the deployment to finish. The live URL will be displayed on the same screen.
+
 Roadmap
- Layout responsivo para dispositivos móveis
- Atualização periódica da agenda de jogos
- Integração do formulário de contato com serviço de envio de e-mail
- Galeria de fotos e conquistas do clube
- Página de elenco e histórico de resultados
- Melhorias de acessibilidade e SEO
-Aviso legal
+[ ] Responsive layout for mobile devices
 
-Projeto independente e sem fins lucrativos, criado para fins educacionais. O escudo, o nome e demais marcas pertencem ao Esporte Clube Jacuipense e a seus respectivos titulares.
+[ ] Regular updates to the match schedule
 
-Autor
+[ ] Integration of the contact form with an email-sending service
 
-Tadeu Henrique Riachão do Jacuípe, Bahia
+[ ] Photo gallery and club achievements
+
+[ ] Squad and results history page
+
+[ ] Accessibility and SEO improvements
+
+Disclaimer
+This is an independent, non-profit project created for educational purposes. The crest, name, and other trademarks belong to Esporte Clube Jacuipense and their respective rights holders.
+
+Author
+Tadeu Henrique
+
+Riachão do Jacuípe, Bahia
 
 GitHub
